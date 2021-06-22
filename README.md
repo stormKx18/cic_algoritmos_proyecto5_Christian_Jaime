@@ -47,7 +47,16 @@ Entregables:
 >[Ver en YouTube](https://www.youtube.com/watch?v=3XNFgLX7PIo)
 
 
+### 180 nodos (Modelo Gm,n de malla)
+**m = 15, n = 12, dirigido = False**
+
+[![GRAFO_MALLA_180](/img/GRAFO_MALLA_180.PNG)](https://www.youtube.com/watch?v=jCKrALfbU4E)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=jCKrALfbU4E)
+
+
 ##
+
 
 ---
 

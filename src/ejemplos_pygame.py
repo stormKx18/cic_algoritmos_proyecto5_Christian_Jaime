@@ -26,6 +26,10 @@ gfMalla.display()
 gfMalla.playSpringAnimation("grafo Malla 100 nodos")
 '''
 
+gfMalla = grafoMalla(15,12,dirigido=False)
+gfMalla.display()
+gfMalla.playSpringAnimation("grafo Malla 100 nodos")
+
 '''
 #gfErdosReny - 100 nodos
 gfErdosReny = grafoErdosRenyi(n=100, m=100, dirigido=False, auto=False)
@@ -45,9 +49,10 @@ gfBarabasiAlbert = grafoBarabasiAlbert(n=100, d=4, dirigido=False, auto=False)
 gfBarabasiAlbert.display()
 gfBarabasiAlbert.playSpringAnimation("grafo Barabási-Albert 100 nodos")
 '''
-
+'''
 #grafoBarabasiAlbert - 100 nodos
 gfDorogovtsevMendes = grafoDorogovtsevMendes(100,dirigido=False)
 gfDorogovtsevMendes.display()
 gfDorogovtsevMendes.playSpringAnimation("grafo Dorogovtsev-Mendes 100 nodos")
+'''
 #******************************************************************************
