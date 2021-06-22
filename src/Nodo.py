@@ -17,6 +17,7 @@ class Nodo:
     self.distancia=float('inf')
     self.coordenadas=[randint(1,sizeX),randint(1,sizeY)] #x,y
     self.color=colors[randint(0,(len(colors)-1))] #Pick a random color
+    self.vecinos=[]
 
   def __str__(self):
       return str(self.id)

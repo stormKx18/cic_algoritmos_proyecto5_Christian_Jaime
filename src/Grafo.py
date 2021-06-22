@@ -45,6 +45,8 @@ class Grafo:
             self.aristas[nueva_arista.id]=nueva_arista
             self.nodos[source].grado+=1 #aumentar el grado del nodo
             self.nodos[target].grado+=1 #aumentar el grado del nodo
+            self.nodos[source].vecinos.append(target)
+            self.nodos[target].vecinos.append(source)
         except:
             print('***Error - Checar que los nodos se hayan decalarado previamente!***')
 
@@ -447,11 +449,10 @@ class Grafo:
     def calculateSprings(self):
         for key, value in self.nodos.items():
 
-            #value.coordenadas[0]+=1
-            vecinos = self.nodosConectados(value.id)
+            vecinos = self.nodos[value.id].vecinos
             fx=0
             fy=0
-            #Atraction force
+            #Attraction force
             for i in vecinos:
                 d=math.sqrt((self.nodos[i].coordenadas[0]-value.coordenadas[0])**2+(self.nodos[i].coordenadas[1]-value.coordenadas[1])**2)
                 if d<50: #30
