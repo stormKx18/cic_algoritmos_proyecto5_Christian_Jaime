@@ -77,6 +77,15 @@ Entregables:
 
 ##
 
+### 180 nodos (Modelo Gn,m de Erdös y Rényi)
+**n = 180, m = 150, dirigido = False, auto=False**
+
+[![ERDOS_180](/img/ERDOS_180.PNG)](https://www.youtube.com/watch?v=hwCnme5mw6s)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=hwCnme5mw6s)
+
+##
+
 ---
 
 ## Modelo Gn,p de **Gilbert**
