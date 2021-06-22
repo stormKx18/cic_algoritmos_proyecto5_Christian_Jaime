@@ -87,6 +87,15 @@ Entregables:
 
 ##
 
+### 400 nodos (Modelo Gn,m de Erdös y Rényi)
+**n = 400, m = 200, dirigido = False, auto=False**
+
+[![ERDOS_400](/img/ERDOS_400.PNG)](https://www.youtube.com/watch?v=pSEIADjMB2g)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=pSEIADjMB2g)
+
+##
+
 ---
 
 ## Modelo Gn,p de **Gilbert**
