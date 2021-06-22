@@ -78,21 +78,12 @@ Entregables:
 
 ##
 
-### 180 nodos (Modelo Gn,m de Erdös y Rényi)
-**n = 180, m = 150, dirigido = False, auto=False**
+### 500 nodos (Modelo Gn,m de Erdös y Rényi)
+**n = 500, m = 500, dirigido = False, auto=False**
 
-[![ERDOS_180](/img/ERDOS_180.PNG)](https://www.youtube.com/watch?v=hwCnme5mw6s)
+[![ERDOS_500](/img/ERDOS_500.PNG)](https://www.youtube.com/watch?v=BIr4CjdM1pk)
 
->[Ver en YouTube](https://www.youtube.com/watch?v=hwCnme5mw6s)
-
-##
-
-### 400 nodos (Modelo Gn,m de Erdös y Rényi)
-**n = 400, m = 200, dirigido = False, auto=False**
-
-[![ERDOS_400](/img/ERDOS_400.PNG)](https://www.youtube.com/watch?v=pSEIADjMB2g)
-
->[Ver en YouTube](https://www.youtube.com/watch?v=pSEIADjMB2g)
+>[Ver en YouTube](https://www.youtube.com/watch?v=BIr4CjdM1pk)
 
 ##
 
