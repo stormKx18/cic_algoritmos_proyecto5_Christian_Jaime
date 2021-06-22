@@ -452,32 +452,32 @@ class Grafo:
             vecinos = self.nodos[value.id].vecinos
             fx=0
             fy=0
-            #Attraction force
-            for i in vecinos:
-                d=math.sqrt((self.nodos[i].coordenadas[0]-value.coordenadas[0])**2+(self.nodos[i].coordenadas[1]-value.coordenadas[1])**2)
-                if d<50: #30
-                    continue
 
-                force= c1*math.log(d/c2)
-                #https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors
-                radians = math.atan2(self.nodos[i].coordenadas[1]-value.coordenadas[1], self.nodos[i].coordenadas[0]-value.coordenadas[0])
-                fx+= force*math.cos(radians)
-                fy+=force*math.sin(radians)
 
-            #Repulsion force
             for key2, value2 in self.nodos.items():
                 if value.id==value2.id:
                     continue
                 if value2.id in vecinos:
-                    continue
-                d=math.sqrt((value2.coordenadas[0]-value.coordenadas[0])**2+(value2.coordenadas[1]-value.coordenadas[1])**2)
-                if d==0:
-                    continue
-                force= c3/math.sqrt(d)
-                #https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors
-                radians = math.atan2(value2.coordenadas[1]-value.coordenadas[1], value2.coordenadas[0]-value.coordenadas[0])
-                fx-= force*math.cos(radians)
-                fy-=force*math.sin(radians)
+                    #Attraction force - Adjacent nodes
+                    d=math.sqrt((value2.coordenadas[0]-value.coordenadas[0])**2+(value2.coordenadas[1]-value.coordenadas[1])**2)
+                    if d<50: #30
+                        continue
+
+                    force= c1*math.log(d/c2)
+                    #https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors
+                    radians = math.atan2(value2.coordenadas[1]-value.coordenadas[1], value2.coordenadas[0]-value.coordenadas[0])
+                    fx+= force*math.cos(radians)
+                    fy+=force*math.sin(radians)
+                else:
+                    #Repulsion force - Not adjacent nodes
+                    d=math.sqrt((value2.coordenadas[0]-value.coordenadas[0])**2+(value2.coordenadas[1]-value.coordenadas[1])**2)
+                    if d==0:
+                        continue
+                    force= c3/math.sqrt(d)
+                    #https://stackoverflow.com/questions/42258637/how-to-know-the-angle-between-two-vectors
+                    radians = math.atan2(value2.coordenadas[1]-value.coordenadas[1], value2.coordenadas[0]-value.coordenadas[0])
+                    fx-= force*math.cos(radians)
+                    fy-=force*math.sin(radians)
 
 
             value.coordenadas[0]+=c4*fx

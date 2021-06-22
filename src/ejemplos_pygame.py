@@ -30,7 +30,7 @@ gfMalla = grafoMalla(15,12,dirigido=False)
 gfMalla.display()
 gfMalla.playSpringAnimation("grafo Malla 100 nodos")
 '''
-gfMalla = grafoMalla(15,12,dirigido=False)
+gfMalla = grafoMalla(10,10,dirigido=False)
 gfMalla.display()
 gfMalla.playSpringAnimation("grafo Malla 180 nodos")
 '''
