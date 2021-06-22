@@ -48,12 +48,12 @@ Entregables:
 
 ##
 
-### 180 nodos (Modelo Gm,n de malla)
-**m = 15, n = 12, dirigido = False**
+### 289 nodos (Modelo Gm,n de malla)
+**m = 17, n = 17, dirigido = False**
 
-[![GRAFO_MALLA_180](/img/GRAFO_MALLA_180.PNG)](https://www.youtube.com/watch?v=jCKrALfbU4E)
+[![GRAFO_MALLA_289](/img/GRAFO_MALLA_289.PNG)](https://www.youtube.com/watch?v=uncQHZ-XuJA)
 
->[Ver en YouTube](https://www.youtube.com/watch?v=jCKrALfbU4E)
+>[Ver en YouTube](https://www.youtube.com/watch?v=uncQHZ-XuJA)
 
 
 ##

@@ -30,9 +30,9 @@ gfMalla = grafoMalla(15,12,dirigido=False)
 gfMalla.display()
 gfMalla.playSpringAnimation("grafo Malla 100 nodos")
 '''
-gfMalla = grafoMalla(10,10,dirigido=False)
+gfMalla = grafoMalla(17,17,dirigido=False)
 gfMalla.display()
-gfMalla.playSpringAnimation("grafo Malla 180 nodos")
+gfMalla.playSpringAnimation("grafo Malla 289 nodos")
 '''
 #gfErdosReny - 100 nodos
 gfErdosReny = grafoErdosRenyi(n=100, m=100, dirigido=False, auto=False)
