@@ -116,6 +116,16 @@ Entregables:
 
 ##
 
+### 500 nodos (Modelo Gn,p de Gilbert)
+**n = 500, p = 0.1, dirigido = False, auto=False**
+
+[![GILBERT_500](/img/GILBERT_500.PNG)](https://www.youtube.com/watch?v=_pP7ClPGpsM)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=_pP7ClPGpsM)
+
+
+##
+
 ---
 
 ## Modelo Gn,r **geográfico simple**
