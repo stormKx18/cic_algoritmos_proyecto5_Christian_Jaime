@@ -146,6 +146,16 @@ Entregables:
 
 ##
 
+### 500 nodos (Modelo Gn,r Geográfico simple)
+**n = 500, r = 0.12, dirigido = False, auto=False**
+
+
+[![GEOGRAFICO_500](/img/GEOGRAFICO_500.PNG)](https://www.youtube.com/watch?v=GAs-RZikkjY)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=GAs-RZikkjY)
+
+##
+
 ---
 
 ## Variante del modelo Gn,d **Barabási-Albert**

@@ -19,6 +19,10 @@ gfGeografico.display()
 gfGeografico.playSpringAnimation("grafoGeografico 100 nodos")
 '''
 
+gfGeografico = grafoGeografico(n=500, r=0.12, dirigido=False, auto=False)
+gfGeografico.display()
+gfGeografico.playSpringAnimation("grafoGeografico 500 nodos")
+
 '''
 #gfMalla - 100 nodos
 gfMalla = grafoMalla(10,10,dirigido=False)
@@ -41,12 +45,12 @@ gfErdosReny = grafoErdosRenyi(n=100, m=100, dirigido=False, auto=False)
 gfErdosReny.display()
 gfErdosReny.playSpringAnimation("grafo Erdos Renyi 100 nodos")
 '''
-
+'''
 #gfErdosReny - 500 nodos
 gfErdosReny = grafoErdosRenyi(n=400, m=200, dirigido=False, auto=False)
 gfErdosReny.display()
 gfErdosReny.playSpringAnimation("grafo Erdos Renyi 400 nodos")
-
+'''
 
 '''
 #grafoGilbert - 100 nodos
@@ -54,6 +58,13 @@ gfGilbert = grafoGilbert(n=100, p=0.1, dirigido=False, auto=False)
 gfGilbert.display()
 gfGilbert.playSpringAnimation("grafo Gilbert 100 nodos")
 '''
+'''
+#grafoGilbert - 100 nodos
+gfGilbert = grafoGilbert(n=500, p=0.1, dirigido=False, auto=False)
+gfGilbert.display()
+gfGilbert.playSpringAnimation("grafo Gilbert 500 nodos")
+'''
+
 '''
 #grafoBarabasiAlbert - 100 nodos
 gfBarabasiAlbert = grafoBarabasiAlbert(n=100, d=4, dirigido=False, auto=False)
