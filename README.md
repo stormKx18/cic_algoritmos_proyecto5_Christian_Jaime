@@ -166,6 +166,15 @@ Entregables:
 
 ##
 
+### 500 nodos (Variante del modelo Gn,d Barabási-Albert)
+**n = 500, d = 3, dirigido = False, auto=False**
+
+[![BARABASI_500](/img/BARABASI_500.PNG)](https://www.youtube.com/watch?v=p-gBZSHEjtU)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=p-gBZSHEjtU)
+
+##
+
 ---
 
 ## Modelo Gn **Dorogovtsev-Mendes**
