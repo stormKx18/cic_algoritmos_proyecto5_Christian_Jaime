@@ -16,10 +16,11 @@ BLUE = (0,0,255)
 PURPLE = (116,1,113)
 FPS = 60
 CIRCLE_RADIUS=3
-c1=2
-c2=1
-c3=1
-c4=0.1
+c1=1.9 #2
+c2=0.01 #1
+c3=0.33 #1
+c4=0.1 #0.1
+MIN_DIST=30
 #******************************************************************************
 #Clase Grafo
 class Grafo:
@@ -460,7 +461,7 @@ class Grafo:
                 if value2.id in vecinos:
                     #Attraction force - Adjacent nodes
                     d=math.sqrt((value2.coordenadas[0]-value.coordenadas[0])**2+(value2.coordenadas[1]-value.coordenadas[1])**2)
-                    if d<50: #30
+                    if d<MIN_DIST: #30
                         continue
 
                     force= c1*math.log(d/c2)
@@ -483,13 +484,13 @@ class Grafo:
             value.coordenadas[0]+=c4*fx
             value.coordenadas[1]+=c4*fy
 
-
+            '''
             #Limit X and Y coordinates
             value.coordenadas[0]=max(value.coordenadas[0],0)
             value.coordenadas[1]=max(value.coordenadas[1],0)
             value.coordenadas[0]=min(value.coordenadas[0],sizeX)
             value.coordenadas[1]=min(value.coordenadas[1],sizeY)
-
+            '''
 
 
 

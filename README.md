@@ -192,5 +192,12 @@ Entregables:
 
 ##
 
+### 500 nodos (Modelo Gn Dorogovtsev-Mendes)
+**n = 500, dirigido = False**
 
+[![DOROGVTSEV_500](/img/DOROGVTSEV_500.PNG)](https://www.youtube.com/watch?v=4jpaDqSRs9c)
+
+>[Ver en YouTube](https://www.youtube.com/watch?v=4jpaDqSRs9c)
+
+##
 ---
